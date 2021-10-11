@@ -87,7 +87,7 @@ function onError(error:createError.HttpError): void
  * Event listener for HTTP server "listening" event.
  */
 
-function onListening():void
+function onListening():void 
 {
   let addr = server.address();
   let bind = typeof addr === 'string'
